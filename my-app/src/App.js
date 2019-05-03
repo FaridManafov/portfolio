@@ -21,16 +21,18 @@ class App extends Component {
       //     </a>
       //   </header>
       // </div>
+      <div>
+        <header className="header-class">
+        </header>
 
-      <header className="header-class">
-        <p className="hello-text">Hello</p>
-      </header>
+        <div className="main-div">
+          <h1 className="hello-text">Hello</h1>
 
-      <div className="main-div">
+        </div>
+         
+        <div className="footer-div">
 
-      </div>
-      <div className="footer-div">
-
+        </div>
       </div>
     );
   }
