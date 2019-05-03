@@ -21,13 +21,22 @@ class App extends Component {
       //     </a>
       //   </header>
       // </div>
-      <div>
+      <div className="main-div">
         <header className="header-class">
+          Farid Manafov's Profile
         </header>
 
         <div className="main-div">
           <h1 className="hello-text">Hello</h1>
-
+          <h3 className="name">My name is Farid</h3>
+          <h3 
+            className="cycle-text"
+          >
+            and I am a 
+            <cycleText
+              
+            />
+          </h3>
         </div>
          
         <div className="footer-div">
