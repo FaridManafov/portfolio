@@ -21,28 +21,35 @@ class App extends Component {
       //     </a>
       //   </header>
       // </div>
-      <div className="main-div">
-        <header className="header-class">
-          Farid Manafov's Profile
-        </header>
+      
+
+      <section className="first-section">
 
         <div className="main-div">
-          <h1 className="hello-text">Hello</h1>
-          <h3 className="name">My name is Farid</h3>
-          <h3 
-            className="cycle-text"
-          >
-            and I am a 
-            <cycleText
-              
-            />
-          </h3>
-        </div>
-         
-        <div className="footer-div">
+          {/* <header className="header-class">
+            Farid Manafov's Profile
+          </header> */}
 
+          <div className="main-div">
+            <h1 className="hello-text">Hello</h1>
+            <h3 className="name">My name is Farid</h3>
+            {/* <h3 
+              className="cycle-text"
+              >
+              and I like to 
+              <cycleText
+                
+                />
+            </h3> */}
+          </div>
+           
+          <div className="footer-div">
+
+          </div>
         </div>
-      </div>
+      </section>
     );
   }
 }
+
+export default App;
