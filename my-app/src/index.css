@@ -14,5 +14,10 @@ code {
 } */
 
 .first-section{
+  display: flex;
+  align-items: center;
+  flex-flow: wrap column;
   background-color: aliceblue;
+  
+  font-size: 50px;
 }
