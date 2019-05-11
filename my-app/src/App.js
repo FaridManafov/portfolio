@@ -8,9 +8,27 @@ class App extends Component {
       <div>
 
         <section className="first-section">
+
+          {/* idea for the future
+           <svg 
+            className="SVG-circle-parent"
+            height="120"
+            width="120"
+          >
+            <circle 
+              className="circle"
+              r="58"
+              cx="60"
+              cy="60"
+            >
+
+            </circle>
+          </svg>
+          */}
           <div className="first-section-wrapper">
             <h1 className="hello-text">Hello</h1>
           </div>
+
         </section>
 
         <section className="second-section">
