@@ -21,3 +21,15 @@ code {
   
   font-size: 50px;
 }
+
+.second-section{
+  display: flex;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+.third-section{
+  display: flex;
+  align-items: center;
+  background-color: aquamarine;
+}

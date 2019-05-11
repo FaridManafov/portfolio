@@ -19,6 +19,11 @@ class App extends Component {
           </div>
         </section>
       
+        <section className="third-section-wrapper">
+          <div className="third-section-wrapper">
+            <h1 className="placeholder">Hello</h1>
+          </div>
+        </section>
       </div>
     );
   }
