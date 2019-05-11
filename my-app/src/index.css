@@ -12,26 +12,48 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 } */
+@import url('https://fonts.googleapis.com/css?family=Raleway:200');
+
+html,body{
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway";
+}
 
 .first-section{
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-flow: wrap column;
-
+  /* flex-flow: wrap column; */
+  
   background: url(./images/14196640392_0533420a3c_o.jpg);
   background-attachment: fixed;
   background-position: left;
   background-size: cover;
   height: 100vh;
-  font-size: 50px;
 }
 
+.first-section-wrapper{
+  font-size: 50px;
+  /* margin-bottom: 60%; */
+  text-align: center;
+}
+
+.name-text{
+  margin: 0;
+}
+
+.headline-text{
+  margin-block-start: 2%;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~Second Section~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 .second-section{
   display: flex;
   align-items: center;
   background-color: cadetblue;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~Third Section~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .third-section{
   display: flex;

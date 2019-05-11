@@ -9,7 +9,9 @@ class App extends Component {
         <section className="first-section">
 
           <div className="first-section-wrapper">
-            <h1 className="hello-text">Hello</h1>
+            <h1 className="name-text">Farid Manafov</h1>
+            {/* later make this into a wheel */}
+            <h4 className="headline-text">Web Developer </h4>
           </div>
 
         </section>
