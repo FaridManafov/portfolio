@@ -26,7 +26,8 @@ class App extends Component {
             </div>
 
             <div className="about-me-content">
-              <p className="about-me-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non nunc justo. Aenean et tempor tellus. Sed eget iaculis nisl. Duis sodales ex vel rhoncus tristique. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus tristique gravida commodo. Phasellus finibus pulvinar justo, quis congue nibh. Curabitur ultrices nec felis et suscipit. Pellentesque placerat pulvinar tincidunt. Maecenas a ligula iaculis, mattis lacus sed, auctor risus. Sed vel sagittis tellus. Ut porta ornare eros vitae laoreet. Etiam venenatis quam sed elit ultrices tempus. Maecenas sodales mattis est at porta.
+              <h1 className="about-me-header">Who am I?</h1>
+              <p className="about-me-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam non nunc justo. Aenean et tempor tellus. Sed eget iaculis nisl. Duis sodales ex vel rhoncus tristique. Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus tristique gravida commodo. Phasellus finibus pulvinar justo, quis congue nibh. Curabitur ultrices nec felis et suscipit. Pellentesque placerat pulvinar tincidunt. Maecenas a ligula iaculis, mattis lacus sed, auctor risus. Sed vel sagittis tellus. Ut porta ornare eros vitae laoreet. Etiam venenatis quam sed elit ultrices tempus. Maecenas sodales mattis est at porta.
               </p>
             </div>
 

@@ -17,12 +17,12 @@ code {
 html,body{
   margin: 0;
   padding: 0;
-  font-family: "Raleway";
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~First Section ~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .first-section{
+  font-family: "Raleway";
   display: flex;
   align-items: center;
   justify-content: center;
@@ -52,17 +52,33 @@ html,body{
 
 .second-section{
   width: 100%;
-  display: flex;
   background-color: cadetblue;
 }
 
-.about-me-content{
+.second-section-wrapper{
+  display: flex;
   align-items: center;
-  justify-content: center;
-
-
+  justify-content: space-around;
+  
 }
 
+.about-me-content{
+  display: flex;
+  max-width: 50%;
+  flex-direction: column; 
+}
+
+.about-me-description{
+  margin: 0;
+}
+
+.about-me-header{
+  text-align: center;
+}
+
+.about-me-image{
+
+}
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~Third Section~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 .third-section{
