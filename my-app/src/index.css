@@ -16,9 +16,14 @@ code {
 .first-section{
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-flow: wrap column;
-  background-color: aliceblue;
-  
+
+  background: url(./images/14196640392_0533420a3c_o.jpg);
+  background-attachment: fixed;
+  background-position: left;
+  background-size: cover;
+  height: 100vh;
   font-size: 50px;
 }
 
@@ -33,14 +38,3 @@ code {
   align-items: center;
   background-color: aquamarine;
 }
-/* 
-.svg{
-  height: 120;
-  width: 120;
-}
-
-.circle{
-  stroke:red;
-  stroke-width: 1;
-  fill: transparent;
-} */
