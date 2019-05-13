@@ -35,7 +35,7 @@ class App extends Component {
 
         </section>
       
-        <section className="third-section-wrapper">
+        <section className="third-section">
           <div className="third-section-wrapper">
             
             <div className="stack-icons-container">
@@ -50,6 +50,27 @@ class App extends Component {
               <div className="stack-description">
                 <h1 className="placeholder">stack icons</h1>
               </div>
+            </div>
+
+          </div>
+        </section>
+
+        <section className="fourth-section">
+          <div className="fourth-section-wrapper">
+            <h1 className="project-header">Projects</h1>
+
+            <div className="project-icon-stacks">
+              {/* use images of stack icons here */}
+              <h1>placeholder</h1>
+            </div>
+
+            <div className="project-links">
+              <a href="link">github</a>
+              {/* this will be a link to the github repo */}
+            </div>
+
+            <div className="project-description">
+              
             </div>
 
           </div>
