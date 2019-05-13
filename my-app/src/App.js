@@ -37,7 +37,21 @@ class App extends Component {
       
         <section className="third-section-wrapper">
           <div className="third-section-wrapper">
-            <h1 className="placeholder">Hello</h1>
+            
+            <div className="stack-icons-container">
+              <h1 className="stack-icons-header">Header for Icons</h1>
+              <div className="stack-icons">
+                <h1 className="placeholder">Stack Description</h1>
+              </div>
+            </div>
+
+            <div className="stack-description-containter">
+              <h1 className="stack-description-header">Header for description</h1>
+              <div className="stack-description">
+                <h1 className="placeholder">stack icons</h1>
+              </div>
+            </div>
+
           </div>
         </section>
       </div>
