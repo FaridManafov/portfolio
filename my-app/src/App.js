@@ -57,7 +57,11 @@ class App extends Component {
 
         <section className="fourth-section">
           <div className="fourth-section-wrapper">
-            <h1 className="project-header">Projects</h1>
+            <h1 className="project-total-header">Projects</h1>
+
+            <div className="project-header">
+              <h1>placeholder</h1>
+            </div>
 
             <div className="project-icon-stacks">
               {/* use images of stack icons here */}
@@ -70,7 +74,7 @@ class App extends Component {
             </div>
 
             <div className="project-description">
-              
+
             </div>
 
           </div>
