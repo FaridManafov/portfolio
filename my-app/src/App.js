@@ -57,24 +57,28 @@ class App extends Component {
 
         <section className="fourth-section">
           <div className="fourth-section-wrapper">
-            <h1 className="project-total-header">Projects</h1>
+            {/* <h1 className="project-total-header">Projects</h1> */}
 
-            <div className="project-header">
-              <h1>placeholder</h1>
-            </div>
+            <div className="project-header-image-icon-wrapper">
 
-            <div className="project-icon-stacks">
-              {/* use images of stack icons here */}
-              <h1>placeholder</h1>
-            </div>
+              <div className="project-header">
+                <h1>specific project header</h1>
+              </div>
+              
+              <div className="project-icon-stacks">
+                {/* use images of stack icons here */}
+                <h1>icons</h1>
+              </div>
 
-            <div className="project-links">
-              <a href="link">github</a>
-              {/* this will be a link to the github repo */}
+              <div className="project-links">
+                <a href="link">github</a>
+                {/* this will be a link to the github repo */}
+              </div>
+              
             </div>
 
             <div className="project-description">
-
+              <h1>description</h1>
             </div>
 
           </div>
