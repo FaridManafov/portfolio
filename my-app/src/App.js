@@ -40,8 +40,8 @@ class App extends Component {
             
             <div className="stack-icons-container">
               <h1 className="stack-icons-header">Header for Icons</h1>
-              <div className="stack-icons">
-                <h1 className="placeholder">Stack Description</h1>
+              <div className="stack-icon">
+                {/* <img className="react-icon">Stack Description</img> */}
               </div>
             </div>
 
