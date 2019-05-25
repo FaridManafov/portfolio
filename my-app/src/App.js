@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import Headshot from './images/1557276283467.png';
+
+// import Headshot from './images/1557276283467.png';
 
 class App extends Component {
   render() {
     return (
-      <div className="portfolio">
 
+      
+      <div className="portfolio">
         <section className="first-section">
 
           <div className="first-section-wrapper">
@@ -21,9 +23,9 @@ class App extends Component {
 
           <div className="second-section-wrapper">
 
-            <div className="about-me-image">
-              <img src={Headshot} alt="placeholder"/>
-            </div>
+            {/* <div className="about-me-image"> */}
+              {/* <img src={Headshot} alt="placeholder"/> */}
+            {/* </div> */}
 
             <div className="about-me-content">
               <h1 className="about-me-header">Who am I?</h1>
@@ -37,22 +39,77 @@ class App extends Component {
       
         <section className="third-section">
           <div className="third-section-wrapper">
+
+            <h1 total-stack-header>My Stacks</h1>
             
-            <div className="stack-icons-container">
-              <h1 className="stack-icons-header">Header for Icons</h1>
-              <div className="stack-icon">
-                {/* <img className="react-icon">Stack Description</img> */}
-              </div>
-            </div>
+            <ul className="stack-grid">
 
-            <div className="stack-description-containter">
-              <h1 className="stack-description-header">Header for description</h1>
-              <div className="stack-description">
-                <h1 className="placeholder">stack icons</h1>
-              </div>
-            </div>
+              <li className="stack-container">
+                <i>
+                  <i class="fab fa-html5"></i>
+                </i>
+                <h3 className="stack-header">HTML5</h3>
+              </li>
 
-          </div>
+              <li className="stack-container">
+                <i>
+                  CSS3
+                </i>
+                <h3 className="stack-header">CSS3</h3>
+              </li>
+
+              <li className="stack-container">
+                <i>
+                  Sass
+                </i>
+                <h3 className="stack-header">Sass</h3>
+              </li>
+
+              <li className="stack-container">
+                <i>
+                  Javascript
+                </i>
+                <h3 className="stack-header">Javascript</h3>
+              </li>
+
+              <li className="stack-container">
+                <i>
+                  Jquery
+                </i>
+                <h3 className="stack-header">Jquery</h3>
+              </li>
+
+              <li className="stack-container">
+                <i>
+                  react
+                </i>
+                <h3 className="stack-header">react</h3>
+              </li>
+
+              <li className="stack-container">
+                <i>
+                  GIT
+                </i>
+                <h3 className="stack-header">GIT</h3>
+              </li>
+
+              <li className="stack-container">
+                <i>
+                  vscode
+                </i>
+                <h3 className="stack-header">vscode</h3>
+              </li>
+
+              <li className="stack-container">
+                <i>
+                  npm
+                </i>
+                <h3 className="stack-header">npm</h3>
+              </li>
+
+            </ul>
+
+           </div>
         </section>
 
         <section className="fourth-section">
@@ -67,7 +124,7 @@ class App extends Component {
               
               <div className="project-icon-stacks">
                 {/* use images of stack icons here */}
-                <h1>icons</h1>
+
               </div>
 
               <div className="project-links">
