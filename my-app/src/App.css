@@ -125,14 +125,19 @@ html,body{
 }
 
 .stack-grid{
+  flex-flow: wrap;
   display: flex;
   align-items: center;
   justify-content: space-around;
   list-style-type: none;
+  max-width: 50%;
+
 }
 
 .stack-container{
-  background-color: red;
+  width: 100px;
+  text-align: center;
+  margin: 10px;
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~ Fourth Section ~~~~~~~~~~~~~~~~~~~~~~~~~~ */
