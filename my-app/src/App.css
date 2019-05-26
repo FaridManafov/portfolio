@@ -114,7 +114,7 @@ html,body{
 .third-section{
   background-color: aquamarine;
   width: 100%;
-  height: 50vh;
+  /* height: 50vh; */
 }
 
 .third-section-wrapper{
